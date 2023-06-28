@@ -1,0 +1,62 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  padding: 20px;
+  height: 100vh;
+}
+
+.film-releases-title {
+  font-size: 13.5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.film-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.film-list-item {
+  margin-bottom: 10px;
+}
+
+.film-title {
+  display: inline-block;
+  width: 200px; /* Adjust the width as needed */
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bolder;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.view-more-button {
+  display: inline-block;
+  width: 240px; /* Adjust the width to match film-title */
+  font-weight: bold;
+  background-color: #6135db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 11px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.film-title:hover {
+  background-color: #e11b9f;
+}
+
+.view-more-button:hover {
+  background-color: #a6ff01;
+}
